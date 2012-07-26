@@ -48,7 +48,6 @@ public class Main {
 	    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 	    frame.add(new SpielGrafik());
-//	    frame.add(new EinfacheGrafik());
 
 	    
 	    frame.addKeyListener(new KeyAdapter() {
@@ -189,21 +188,5 @@ public class Main {
 				curGegner.paint(g);
 			}
 		}
-	}
-}
-
-class EinfacheGrafik extends JPanel {
-	@Override
-	public void paint(Graphics g) {
-		super.paint(g);
-
-		g.drawLine(50,50,60,60);
-		g.drawLine(50,50,50,60);
-	g.drawLine(100,100,200,100);
-	g.drawLine(100,200,200,200);
-	
-	
-	
-	
 	}
 }
