@@ -67,7 +67,6 @@ public class Main {
 	    			System.exit(0);
 	    		}
 	    		
-	    		System.out.println(farbe);
 	    		if (e.getKeyCode() == KeyEvent.VK_UP) 
 	    			spieler.bewegeY (-geschwindigkeit);
 	    		if (e.getKeyCode() == KeyEvent.VK_DOWN) 
